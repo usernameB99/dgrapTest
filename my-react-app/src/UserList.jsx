@@ -1,6 +1,6 @@
 import { request, gql } from 'graphql-request';
 
-const endpoint = 'https://nameless-brook-510024.eu-central-1.aws.cloud.dgraph.io/graphql'; // Dgraph Cloud-Endpunkt
+const endpoint = 'https://nameless-brook-510024.eu-central-1.aws.cloud.dgraph.io/graphql'; // Dgraph Cloud-Endpoint
 
 const mutation = gql`
   mutation {
